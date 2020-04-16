@@ -1,0 +1,39 @@
+/* pages/components/x-sliedr.wxss */
+.move-line {
+  /* width: 750rpx; */
+  flex: 1;
+  height: 6rpx;
+  /* background: linear-gradient(to right, #fff, #FAC76D); */
+  position: relative;
+  border-radius: 6rpx;
+  left: 0;
+  top: 60%;
+  transform: translateY(-60%)
+}
+
+.active-line {
+  height: 6rpx;
+  position: absolute;
+  border-radius: 6rpx;
+  left: 0;
+  top: 60%;
+  transform: translateY(-60%);
+  z-index: 99999;
+}
+
+.slider {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0px 1px 3px 1px rgba(187, 187, 187, 0.5)
+}
+
+.property-text {
+  color: #999999;
+  font-size: 30rpx;
+  width: 100rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: left;
+  margin-right: 30rpx;
+}

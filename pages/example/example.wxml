@@ -1,0 +1,4 @@
+<!--pages/example/example.wxml-->
+<!-- <view class="x-slider-content" style="height:200rpx"> -->
+	<x-slider show="{{showSlider}}" bind:myevent="change" sliderValue="0" minValue="2500" maxValue="6500" step="100" showValue="{{showSliderValue}}" unit="{{unit}}" lineColor="{{lineColor}}" showText="{{showText}}" text="色温" blockSize="18" activeColor="{{activeColor}}"></x-slider>
+<!-- </view> -->
